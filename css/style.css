@@ -29,24 +29,28 @@ p {
   margin: 0 auto;
   padding: 1.5em;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .item1 {
-  width: 37%;
   border-radius: 8px;
 }
 
 .item2 {
-  width: 60%;
+  width: 100%;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) and (orientation: landscape){
   .container {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .item1, .item2 {
-    width: 100%;
+  .item1 {
+    width: 37%;
+  }
+
+  .item2 {
+    width: 60%;
   }
 }
