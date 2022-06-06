@@ -1,6 +1,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--color-dark-gray);
+  padding: 15em 0;
 }
 
 :root {
@@ -12,25 +13,25 @@ body {
 h1 {
   color: white;
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 p {
   color: var(--color-light-gray);
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
-header {
-  padding: 5em;
-}
+/* header {
+  padding: 4rem;
+} */
 
 .container {
   background-color: var(--color-gray);
   border-radius: 8px;
-  width: 90%;
+  width: 85%;
   margin: auto;
-  padding: 1.5em;
+  padding: 2em;
   display: flex;
   flex-direction: column;
 }
@@ -45,8 +46,16 @@ header {
 }
 
 @media (min-width: 900px) and (orientation: landscape){
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
   .container {
     width: 50%;
+    padding: 1.5em;
     flex-direction: row;
     justify-content: space-between;
   }
