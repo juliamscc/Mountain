@@ -28,7 +28,7 @@ header {
 .container {
   background-color: var(--color-gray);
   border-radius: 8px;
-  width: 50%;
+  width: 90%;
   margin: auto;
   padding: 1.5em;
   display: flex;
@@ -46,6 +46,7 @@ header {
 
 @media (min-width: 900px) and (orientation: landscape){
   .container {
+    width: 50%;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -56,6 +57,5 @@ header {
 
   .item2 {
     width: 60%;
-    height: auto;
   }
 }
