@@ -22,10 +22,6 @@ p {
   font-size: 2rem;
 }
 
-/* header {
-  padding: 4rem;
-} */
-
 .container {
   background-color: var(--color-gray);
   border-radius: 8px;
@@ -42,6 +38,11 @@ p {
 
 .item2 {
   width: 100%;
+  height: auto;
+}
+
+.btn {
+  width: 5%;
   height: auto;
 }
 
