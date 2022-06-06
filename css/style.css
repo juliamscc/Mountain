@@ -46,7 +46,7 @@ p {
   height: auto;
 }
 
-@media (min-width: 900px) and (orientation: landscape){
+@media (min-width: 900px) {
   h1 {
     font-size: 2rem;
   }
@@ -67,5 +67,6 @@ p {
 
   .item2 {
     width: 60%;
+    height: auto;
   }
 }
